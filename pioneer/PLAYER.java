@@ -30,5 +30,11 @@ public class PLAYER extends Actor
         if( Greenfoot.isKeyDown( "down" ) ){
         setLocation( x,y+3 );
         }
-    }    
+        
+        if(getX() == 0 || getX() == 400){
+            
+        }
+            
+    }  
+    
 }

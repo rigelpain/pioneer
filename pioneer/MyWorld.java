@@ -1,5 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
+
+//private ArrayList<PLAYER> usePlayer = new ArrayList<PLAYER>(0);
 /**
  * Write a description of class MyWorld here.
  * 
@@ -8,7 +10,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-
+    Actor player = null;
+    String[][] nowWorld = new String[2][2];
+    int xW=0;
+    int yW=0;
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -16,20 +21,42 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-<<<<<<< HEAD
         super(600, 400, 1);
-        addObject( new enemy(), 500, 200 );
+        addObject( new enemy(), 500, 200 ); 
         
-=======
-        super(600, 400, 1); 
-        addObject( new PLAYER(), 300, 200 );
->>>>>>> f1ca64676f3daa0aea8a1f54fa9b18ae0b744b3f
+        player = new PLAYER();
+        addObject( player, 300, 200 );
+        
+        GreenfootImage img1 = new GreenfootImage( "images/background1.png" );
+        img1.scale(600,435);
+        getBackground().drawImage( img1, 0, 0 );
     }
     
      public void act() 
     {
-            GreenfootImage img1 = new GreenfootImage( "images/background1.png" );
-            img1.scale(600,435);
-            getBackground().drawImage( img1, 0, 0 );
+            int x = player.getX();
+            int y = player.getY();
+            
+            if(x == 0){
+                if(xW !=0){
+                 GreenfootImage img = new GreenfootImage( "images/background1.png" );
+                 img.scale(600,435);
+                 getBackground().drawImage( img, 0, 0 );
+                 player.setLocation(598,y);
+                 xW--;
+                }              
+            }
+            if(x == 599){
+                if(xW !=1){
+                 GreenfootImage img = new GreenfootImage( "images/background2.png" );
+                 img.scale(600,435);
+                 getBackground().drawImage( img, 0, 0 );
+                 player.setLocation(1,y);
+                 xW++;
+                }              
+            }
+                 
+
+            showText( ""+x+","+y+","+xW, 100, 50 );
     }    
 }
