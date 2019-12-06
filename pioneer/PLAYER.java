@@ -17,12 +17,13 @@ public class PLAYER extends Actor
     {
         int x = getX();
         int y = getY();
-        getImage().scale( 100, 100 );
+        //getImage().scale( 100, 100 );
         if( Greenfoot.isKeyDown( "right" ) ){
         setLocation( x+3,y );
         }
         if( Greenfoot.isKeyDown( "left" ) ){
-        setLocation( x-3,y );
+            
+            setLocation( x-3,y );
         }
         if( Greenfoot.isKeyDown( "up" ) ){
         setLocation( x,y-3 );
