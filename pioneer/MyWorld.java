@@ -21,6 +21,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+<<<<<<< HEAD
         super(600, 400, 1);
         addObject( new enemy(), 500, 200 ); 
         
@@ -30,6 +31,17 @@ public class MyWorld extends World
         GreenfootImage img1 = new GreenfootImage( "images/background1.png" );
         img1.scale(600,435);
         getBackground().drawImage( img1, 0, 0 );
+=======
+
+        super(600, 400, 1);
+   
+        addObject( new enemy(), 500, 200 );
+        
+        
+         
+        addObject( new PLAYER(), 300, 200 );
+
+>>>>>>> a9c71f0117a88ceeae45d6bdfad77250f30e68f2
     }
     
      public void act() 
