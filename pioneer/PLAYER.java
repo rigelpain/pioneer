@@ -74,6 +74,7 @@ public class PLAYER extends Actor
             if(count<18)setImage(img_kousin2);
             if(count<24)setImage(img_kousin3);
         }
+<<<<<<< HEAD
         Actor actor = getOneObjectAtOffset( 0, 0, enemy.class );
         if( actor != null ){
             getWorld().showText( "HOGE", 100, 50 );
@@ -81,4 +82,13 @@ public class PLAYER extends Actor
         count++;
         if(count==24)count=1;
     }    
+=======
+        
+        if(getX() == 0 || getX() == 400){
+            
+        }
+            
+    }  
+    
+>>>>>>> dcb5e07e279e69fb42c72d24a0cfb2c6bf6eefc6
 }
