@@ -35,9 +35,13 @@ public class MyWorld extends World
                         
         player = new PLAYER();
         addObject( player, 300, 200 );
+<<<<<<< HEAD
+       
+=======
         
 
         
+>>>>>>> 66a0783bcffcebe65b2a0f53ff52a6a0773a60b4
         GreenfootImage img1 = new GreenfootImage( "images/background1.png" );
 
         img1.scale(600,435);

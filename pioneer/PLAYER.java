@@ -12,7 +12,8 @@ public class PLAYER extends Actor
     private  GreenfootImage img_hidari1 = null;
     private  GreenfootImage img_back1 = null;
     private  GreenfootImage img_kousin1 = null;
-    
+    int life=100;
+    int count=0;
     public PLAYER()
     {
          img_right1 =  new GreenfootImage( "images/right1.png" );
@@ -27,6 +28,7 @@ public class PLAYER extends Actor
      */
     public void act() 
     {
+        
         int x = getX();
         int y = getY();
         //getImage().scale( 100, 100 );
@@ -52,16 +54,28 @@ public class PLAYER extends Actor
           
         }
         Actor actor = getOneObjectAtOffset( 0, 0, enemy.class );
+        
         if( actor != null ){
-            getWorld().showText( "HOGE", 100, 50 );
-        }  
+        if( life <= 0 ){  
+            World game = new GAMEOVERWorld();
+            Greenfoot.setWorld( game );
+            //getWorld().showText( "GAME OVER", 300, 300 );
+            Greenfoot.stop();
+         }else{
+            life--;
+         }
+        }
+        String s=String.valueOf(life);
+        getWorld().showText( "HP"+s, 100, 350 );
+      }  
        
-    }    
+       
+}    
         
        /* if(getX() == 0 || getX() == 400){
             
         }*/
             
-    }  
+ 
     
 
