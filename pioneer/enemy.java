@@ -29,6 +29,8 @@ public class enemy extends Actor
     { 
         int x = getX();
         int y = getY();
+
+            
   
             if(count2<=5)
             {
