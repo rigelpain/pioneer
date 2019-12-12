@@ -48,7 +48,7 @@ public class PLAYER extends Actor
         int y = getY();
         //getImage().scale( 100, 100 );
         if( Greenfoot.isKeyDown( "right" ) ){
-            setLocation( x+3,y );
+            setLocation( x+1,y );
             if(count<12)setImage(img_right1);
             
             if(count<18)setImage(img_right2);
@@ -56,25 +56,24 @@ public class PLAYER extends Actor
             if(count<24)setImage(img_right3);           
         }
         if( Greenfoot.isKeyDown( "left" ) ){
-            setLocation( x-3,y );
+            setLocation( x-1,y );
             if(count<12)setImage(img_hidari1);
             if(count<18)setImage(img_hidari2);
             if(count<24)setImage(img_hidari3);
         }
         if( Greenfoot.isKeyDown( "up" ) ){
-            setLocation( x,y-3 );
+            setLocation( x,y-1 );
             if(count<12)setImage(img_back1);
             if(count<18)setImage(img_back2);
             if(count<24)setImage(img_back3);
             
         }
         if( Greenfoot.isKeyDown( "down" ) ){
-        setLocation( x,y+3 );
+        setLocation( x,y+1 );
             if(count<12)setImage(img_kousin1);
             if(count<18)setImage(img_kousin2);
             if(count<24)setImage(img_kousin3);
         }
-<<<<<<< HEAD
         Actor actor = getOneObjectAtOffset( 0, 0, enemy.class );
         if( actor != null ){
             getWorld().showText( "HOGE", 100, 50 );
@@ -82,13 +81,11 @@ public class PLAYER extends Actor
         count++;
         if(count==24)count=1;
     }    
-=======
         
-        if(getX() == 0 || getX() == 400){
+       /* if(getX() == 0 || getX() == 400){
             
-        }
+        }*/
             
     }  
     
->>>>>>> dcb5e07e279e69fb42c72d24a0cfb2c6bf6eefc6
-}
+
