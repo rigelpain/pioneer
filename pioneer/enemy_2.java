@@ -16,5 +16,8 @@ public class enemy_2 extends Actor
     public void act() 
     {
         setImage( myGif.getCurrentImage() );
+        int x = getX();
+        int y = getY();
+        setLocation( x-3,y );
     }    
 }
