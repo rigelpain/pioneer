@@ -13,9 +13,12 @@ dependency2.type=UsesDependency
 dependency3.from=PLAYER
 dependency3.to=enemy
 dependency3.type=UsesDependency
+<<<<<<< HEAD
+=======
 dependency4.from=enemy_2
 dependency4.to=GifImage
 dependency4.type=UsesDependency
+<<<<<<< HEAD
 dependency5.from=enemy_1
 dependency5.to=GifImage
 dependency5.type=UsesDependency
@@ -23,6 +26,13 @@ editor.fx.0.height=718
 editor.fx.0.width=884
 editor.fx.0.x=756
 editor.fx.0.y=398
+=======
+>>>>>>> 95e8c31960233e43f1e5a67cea20abff0e2d552d
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+>>>>>>> b1c5b282613048f693bf3e217c973fc73278aaba
 height=585
 package.numDependencies=5
 package.numTargets=6
