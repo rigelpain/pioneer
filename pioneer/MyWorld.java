@@ -27,7 +27,7 @@ public class MyWorld extends World
         player = new PLAYER();
         addObject( player, 300, 200 );
         
-        GreenfootImage img1 = new GreenfootImage( "images/background1.png" );
+        GreenfootImage img1 = new GreenfootImage( "images/background4.png" );
         img1.scale(600,435);
         getBackground().drawImage( img1, 0, 0 );
 
@@ -41,7 +41,7 @@ public class MyWorld extends World
             
             if(x == 0){
                 if(xW !=0){
-                 GreenfootImage img = new GreenfootImage( "images/background1.png" );
+                 GreenfootImage img = new GreenfootImage( "images/background4.png" );
                  img.scale(600,435);
                  getBackground().drawImage( img, 0, 0 );
                  player.setLocation(598,y);
@@ -50,7 +50,7 @@ public class MyWorld extends World
             }
             if(x == 599){
                 if(xW !=1){
-                 GreenfootImage img = new GreenfootImage( "images/background2.png" );
+                 GreenfootImage img = new GreenfootImage( "images/background5.png" );
                  img.scale(600,435);
                  getBackground().drawImage( img, 0, 0 );
                  player.setLocation(1,y);
