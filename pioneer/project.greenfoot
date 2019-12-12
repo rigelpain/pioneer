@@ -1,15 +1,7 @@
 #Greenfoot project file
-<<<<<<< HEAD
 class.MyWorld.image=brick.jpg
-class.PLAYER.image=back1.png
-=======
-<<<<<<< HEAD
-class.MyWorld.image=brick.jpg
-class.PLAYER.image=player.png
->>>>>>> dcb5e07e279e69fb42c72d24a0cfb2c6bf6eefc6
+class.PLAYER.image=kousin1.png
 class.enemy.image=enemy.png
-=======
->>>>>>> a9c71f0117a88ceeae45d6bdfad77250f30e68f2
 dependency1.from=MyWorld
 dependency1.to=enemy
 dependency1.type=UsesDependency
@@ -17,21 +9,25 @@ dependency2.from=MyWorld
 dependency2.to=PLAYER
 dependency2.type=UsesDependency
 <<<<<<< HEAD
+<<<<<<< HEAD
 editor.fx.0.height=718
 editor.fx.0.width=884
 editor.fx.0.x=992
 editor.fx.0.y=74
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c3d6efdb413116670410e2488095f408221e09e7
 dependency3.from=PLAYER
 dependency3.to=enemy
 dependency3.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=1002
-editor.fx.0.y=75
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 height=585
 package.numDependencies=3
+<<<<<<< HEAD
 =======
 editor.fx.0.height=739
 <<<<<<< HEAD
@@ -48,6 +44,8 @@ height=400
 >>>>>>> a9c71f0117a88ceeae45d6bdfad77250f30e68f2
 package.numDependencies=2
 >>>>>>> dcb5e07e279e69fb42c72d24a0cfb2c6bf6eefc6
+=======
+>>>>>>> c3d6efdb413116670410e2488095f408221e09e7
 package.numTargets=3
 project.charset=windows-31j
 publish.hasSource=false
@@ -64,22 +62,14 @@ readme.x=10
 readme.y=10
 simulation.speed=81
 target1.height=50
-<<<<<<< HEAD
-target1.name=enemy
-=======
 target1.name=PLAYER
->>>>>>> dcb5e07e279e69fb42c72d24a0cfb2c6bf6eefc6
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=80
 target1.x=0
 target1.y=0
 target2.height=50
-<<<<<<< HEAD
-target2.name=PLAYER
-=======
 target2.name=enemy
->>>>>>> dcb5e07e279e69fb42c72d24a0cfb2c6bf6eefc6
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
@@ -93,15 +83,9 @@ target3.width=80
 target3.x=0
 target3.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=825
+width=845
 world.lastInstantiated=MyWorld
-xPosition=417
-yPosition=380
-=======
 <<<<<<< HEAD
-width=825
-world.lastInstantiated=MyWorld
 <<<<<<< HEAD
 xPosition=165
 yPosition=123
@@ -115,3 +99,7 @@ yPosition=275
 >>>>>>> a9c71f0117a88ceeae45d6bdfad77250f30e68f2
 >>>>>>> dcb5e07e279e69fb42c72d24a0cfb2c6bf6eefc6
 >>>>>>> 08667f8e1f28331ec9ad1a9f45e67fd25fe9b40a
+=======
+xPosition=286
+yPosition=275
+>>>>>>> c3d6efdb413116670410e2488095f408221e09e7
