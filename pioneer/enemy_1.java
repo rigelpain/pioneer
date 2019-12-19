@@ -20,8 +20,8 @@ public class enemy_1 extends Actor
         
         int x = getX();
         int y = getY();
+        
         setLocation( x-3,y );
-            
-  
+        
     }    
 }
