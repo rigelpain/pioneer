@@ -21,18 +21,39 @@ dependency2.type=UsesDependency
 dependency3.from=MyWorld
 dependency3.to=enemy_1
 dependency3.type=UsesDependency
+<<<<<<< HEAD
 dependency4.from=MyWorld
 dependency4.to=enemy_2
+=======
+<<<<<<< HEAD
+dependency4.from=MyWorld
+dependency4.to=enemy_2
+=======
+dependency4.from=PLAYER
+dependency4.to=GAMEOVERWorld
+>>>>>>> 0a984268467b7cf5ad36a3e87bbfe628d0a43bde
+>>>>>>> f6ebe6b8530f8ad55ecafd7a44a457719dccde7c
 dependency4.type=UsesDependency
 dependency5.from=MyWorld
 dependency5.to=PLAYER
 dependency5.type=UsesDependency
+<<<<<<< HEAD
 dependency6.from=PLAYER
 dependency6.to=GAMEOVERWorld
+=======
+<<<<<<< HEAD
+dependency6.from=PLAYER
+dependency6.to=GAMEOVERWorld
+=======
+dependency6.from=enemy_2
+dependency6.to=GifImage
+>>>>>>> 0a984268467b7cf5ad36a3e87bbfe628d0a43bde
+>>>>>>> f6ebe6b8530f8ad55ecafd7a44a457719dccde7c
 dependency6.type=UsesDependency
 dependency7.from=PLAYER
 dependency7.to=enemy
 dependency7.type=UsesDependency
+<<<<<<< HEAD
 dependency8.from=PLAYER
 dependency8.to=enemy_1
 dependency8.type=UsesDependency
@@ -45,6 +66,27 @@ editor.fx.0.x=78
 editor.fx.0.y=186
 height=585
 package.numDependencies=11
+=======
+<<<<<<< HEAD
+dependency8.from=enemy_2
+dependency8.to=GifImage
+dependency8.type=UsesDependency
+dependency9.from=enemy_1
+dependency9.to=GifImage
+dependency9.type=UsesDependency
+=======
+>>>>>>> 0a984268467b7cf5ad36a3e87bbfe628d0a43bde
+editor.fx.0.height=712
+editor.fx.0.width=884
+editor.fx.0.x=150
+editor.fx.0.y=135
+height=585
+<<<<<<< HEAD
+package.numDependencies=9
+=======
+package.numDependencies=7
+>>>>>>> 0a984268467b7cf5ad36a3e87bbfe628d0a43bde
+>>>>>>> f6ebe6b8530f8ad55ecafd7a44a457719dccde7c
 package.numTargets=8
 project.charset=windows-31j
 publish.hasSource=false
@@ -119,5 +161,10 @@ target8.y=0
 version=3.0.0
 width=891
 world.lastInstantiated=WorldTitle
+<<<<<<< HEAD
 xPosition=554
 yPosition=191
+=======
+xPosition=73
+yPosition=32
+>>>>>>> f6ebe6b8530f8ad55ecafd7a44a457719dccde7c
