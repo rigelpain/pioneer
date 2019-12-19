@@ -18,6 +18,6 @@ public class enemy_2 extends Actor
         setImage( myGif.getCurrentImage() );
         int x = getX();
         int y = getY();
-        setLocation( x-3,y );
+        setLocation( x-2,y );
     }    
 }

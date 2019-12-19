@@ -54,8 +54,9 @@ public class PLAYER extends Actor
           
         }
         Actor actor = getOneObjectAtOffset( 0, 0, enemy.class );
-        
-        if( actor != null ){
+        Actor actor2 = getOneObjectAtOffset( 0, 0, enemy_1.class );
+        Actor actor3 = getOneObjectAtOffset( 0, 0, enemy_2.class );
+        if( actor != null ||actor2 != null||actor3 != null){
         if( life <= 0 ){  
             World game = new GAMEOVERWorld();
             Greenfoot.setWorld( game );
