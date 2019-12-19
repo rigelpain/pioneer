@@ -17,6 +17,8 @@ public class enemy_1 extends Actor
     public void act() 
     {
         setImage( myGif.getCurrentImage() );
+        int yp = PLAYER.y;
+        int xp = PLAYER.x;
         
         int x = getX();
         int y = getY();
@@ -26,7 +28,16 @@ public class enemy_1 extends Actor
   
 =======
         
-        setLocation( x-3,y );
+        
+        if(yp<y)        y=y-1;
+        else if(yp>y)   y=y+1;
+        
+        if(xp<x)        x=x-1;
+        else if(xp>x);
+        
+        setLocation(x,y);
+        
+
         
 >>>>>>> f6ebe6b8530f8ad55ecafd7a44a457719dccde7c
     }    

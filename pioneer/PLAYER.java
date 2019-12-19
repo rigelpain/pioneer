@@ -14,6 +14,9 @@ public class PLAYER extends Actor
     private  GreenfootImage img_kousin1 = null;
     int life=100;
     int count=0;
+    static int x;
+    static int y;
+    
     public PLAYER()
     {
          img_right1 =  new GreenfootImage( "images/right1.png" );
@@ -29,8 +32,9 @@ public class PLAYER extends Actor
     public void act() 
     {
         
-        int x = getX();
-        int y = getY();
+        x = getX();
+        y = getY();
+        
         //getImage().scale( 100, 100 );
         if( Greenfoot.isKeyDown( "right" ) ){
             setLocation( x+2,y );
