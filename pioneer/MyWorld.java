@@ -48,9 +48,10 @@ public class MyWorld extends World
         addObject( enemy_2_3, 440, 60 ); 
         
         player = new PLAYER();
-        addObject( player, 10, 200 );
 
-       
+        addObject( player, 300, 200 );
+
+        addObject( player, 10, 200 );
 
         GreenfootImage img1 = new GreenfootImage( "images/background4.png" );
 
@@ -86,6 +87,10 @@ public class MyWorld extends World
                  addObject( enemy, 500, 300 ); 
                  removeObject( enemy_1 );
                  removeObject( enemy_2 );
+                 removeObject( enemy_1_2 );
+                 removeObject( enemy_2_2 );
+                 removeObject( enemy_1_3 );
+                 removeObject( enemy_2_3 );
                  xW++;
                 }              
             }

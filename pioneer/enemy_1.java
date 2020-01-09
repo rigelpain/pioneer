@@ -44,5 +44,6 @@ public class enemy_1 extends Actor
         }
         
         setLocation(x,y);
+
     }    
 }

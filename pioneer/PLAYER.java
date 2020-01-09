@@ -61,15 +61,21 @@ public class PLAYER extends Actor
         Actor actor2 = getOneObjectAtOffset( 0, 0, enemy_1.class );
         Actor actor3 = getOneObjectAtOffset( 0, 0, enemy_2.class );
         if( actor != null ||actor2 != null||actor3 != null){
+        /*if( life <= 0 ){  
+            World game = new GAMEOVERWorld();
+            Greenfoot.setWorld( game );
+            //getWorld().showText( "GAME OVER", 300, 300 );
+            Greenfoot.stop();
+         }else{*/
+            life--;
+         //}
+        }
         if( life <= 0 ){  
             World game = new GAMEOVERWorld();
             Greenfoot.setWorld( game );
             //getWorld().showText( "GAME OVER", 300, 300 );
             Greenfoot.stop();
-         }else{
-            life--;
          }
-        }
         String s=String.valueOf(life);
         getWorld().showText( "HP"+s, 100, 350 );
       }  
