@@ -38,9 +38,9 @@ public class MyWorld extends World
         enemy_2_2=new enemy_2();
         enemy_2_3=new enemy_2();
         
-        addObject( enemy_1, 500, 300 ); 
-        addObject( enemy_1_2, 500, 400 ); 
-        addObject( enemy_1_3, 400, 320 );
+        addObject( enemy_1,   200, 400 ); 
+        addObject( enemy_1_2, 300, 200 ); 
+        addObject( enemy_1_3, 390, 390 );
         
         
         addObject( enemy_2, 500, 160 ); 
@@ -48,8 +48,14 @@ public class MyWorld extends World
         addObject( enemy_2_3, 440, 60 ); 
         
         player = new PLAYER();
+<<<<<<< HEAD
         addObject( player, 300, 200 );
 
+=======
+        addObject( player, 10, 200 );
+
+       
+>>>>>>> 1daa49c8128e87e48148820b2a291ed7d7ec8d10
 
         GreenfootImage img1 = new GreenfootImage( "images/background4.png" );
 
