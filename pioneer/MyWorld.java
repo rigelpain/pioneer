@@ -48,14 +48,10 @@ public class MyWorld extends World
         addObject( enemy_2_3, 440, 60 ); 
         
         player = new PLAYER();
-<<<<<<< HEAD
+
         addObject( player, 300, 200 );
 
-=======
         addObject( player, 10, 200 );
-
-       
->>>>>>> 1daa49c8128e87e48148820b2a291ed7d7ec8d10
 
         GreenfootImage img1 = new GreenfootImage( "images/background4.png" );
 
