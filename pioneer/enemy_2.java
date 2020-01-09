@@ -29,9 +29,11 @@ public class enemy_2 extends Actor
     
         
         if((xp<x+30)&&(xp>x-30))
-        {
+        {   
             x=x-3;
-            y=y+10;
+            if(y<yp) y=y+10;         
+            else      y=y-5; 
+
         }
         else x=x-3;
         

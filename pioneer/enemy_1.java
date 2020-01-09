@@ -26,9 +26,8 @@ public class enemy_1 extends Actor
         int y = getY();
         
         int speed=1;
-        
-        if((xp<x+10)&&(xp>x-10)&&(yp<y+10)&&(yp>y-10)) speed=5;
-        else                                           speed=1;
+        //if     ((xp<x+5)&&(xp>x-5)) speed=2;
+        //else                          speed=1;
         
         if(yp<y)        y=y-speed;
         else if(yp>y)   y=y+speed;

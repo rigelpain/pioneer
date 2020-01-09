@@ -83,7 +83,7 @@ public class MyWorld extends World
                  img.scale(600,435);
                  getBackground().drawImage( img, 0, 0 );
                  player.setLocation(1,y);
-                 addObject( enemy, 500, 200 ); 
+                 addObject( enemy, 500, 300 ); 
                  removeObject( enemy_1 );
                  removeObject( enemy_2 );
                  xW++;
