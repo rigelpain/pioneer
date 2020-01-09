@@ -22,11 +22,7 @@ public class enemy_1 extends Actor
         
         int x = getX();
         int y = getY();
-<<<<<<< HEAD
-        setLocation( x-2,y );
-            
-  
-=======
+
         
         
         if(yp<y)        y=y-1;
@@ -39,6 +35,6 @@ public class enemy_1 extends Actor
         
 
         
->>>>>>> f6ebe6b8530f8ad55ecafd7a44a457719dccde7c
+
     }    
 }

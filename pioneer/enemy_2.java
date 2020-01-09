@@ -21,10 +21,8 @@ public class enemy_2 extends Actor
         setImage( myGif.getCurrentImage() );
         int x = getX();
         int y = getY();
-<<<<<<< HEAD
-        setLocation( x-2,y );
-=======
-        
+
+       
     
         
         if((xp<x+20)&&(xp>x-20))
@@ -35,6 +33,6 @@ public class enemy_2 extends Actor
         else x=x-3;
         
         setLocation(x,y);
->>>>>>> 530c8874a3a5213b3b75eda757b9c9147a6b81d6
+
     }    
 }
