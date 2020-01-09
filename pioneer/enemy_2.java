@@ -9,6 +9,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class enemy_2 extends Actor
 {
     GifImage myGif = new GifImage("enemy_2.gif");
+    
+    
+    
     /**
      * Act - do whatever the enemy_2 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -19,15 +22,13 @@ public class enemy_2 extends Actor
         int xp = PLAYER.x;
         
         setImage( myGif.getCurrentImage() );
+       
         int x = getX();
         int y = getY();
-<<<<<<< HEAD
-        setLocation( x-2,y );
-=======
         
     
         
-        if((xp<x+20)&&(xp>x-20))
+        if((xp<x+30)&&(xp>x-30))
         {
             x=x-3;
             y=y+10;
@@ -35,6 +36,6 @@ public class enemy_2 extends Actor
         else x=x-3;
         
         setLocation(x,y);
->>>>>>> 530c8874a3a5213b3b75eda757b9c9147a6b81d6
+
     }    
 }
