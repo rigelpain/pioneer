@@ -23,11 +23,7 @@ public class enemy_2 extends Actor
        
         int x = getX();
         int y = getY();
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> 556cbbd339fc5b9c67aa56c2b282c343fdaf86ea
         if((xp<x+30)&&(xp>x-30))
         {   
             x=x-3;
