@@ -48,19 +48,12 @@ dependency8.type=UsesDependency
 dependency9.from=PLAYER
 dependency9.to=enemy_2
 dependency9.type=UsesDependency
-editor.fx.0.height=761
-editor.fx.0.width=884
-<<<<<<< HEAD
-editor.fx.0.x=1005
-editor.fx.0.y=116
-height=582
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=907
+editor.fx.0.y=111
+height=585
 package.numDependencies=14
-=======
-editor.fx.0.x=-32000
-editor.fx.0.y=-32000
-height=28
-package.numDependencies=13
->>>>>>> ef3c5c2980353475ae4b30ed19d0e7211a4a85cc
 package.numTargets=8
 project.charset=windows-31j
 publish.hasSource=false
@@ -133,12 +126,7 @@ target8.width=120
 target8.x=0
 target8.y=0
 version=3.0.0
-width=160
+width=891
 world.lastInstantiated=WorldTitle
-<<<<<<< HEAD
-xPosition=149
-yPosition=188
-=======
 xPosition=0
 yPosition=0
->>>>>>> ef3c5c2980353475ae4b30ed19d0e7211a4a85cc

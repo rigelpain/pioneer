@@ -21,6 +21,9 @@ public class MyWorld extends World
     String[][] nowWorld = new String[2][2];
     int xW=0;
     int yW=0;
+    boolean ene2set= true;
+    boolean ene2_2set= true;
+    boolean ene2_3set= true;
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -49,7 +52,7 @@ public class MyWorld extends World
         
         player = new PLAYER();
 
-        addObject( player, 300, 200 );
+        
 
         addObject( player, 10, 200 );
 
@@ -63,8 +66,16 @@ public class MyWorld extends World
     
      public void act() 
     {
-            int x = player.getX();
-            int y = player.getY();
+            int x    = player.getX();
+            int y    = player.getY();
+            int enex=0; 
+            int enex2=0; 
+            int enex3=0; 
+            if(ene2set==true)   enex  = enemy_2.getX();
+            if(ene2_2set==true) enex2 = enemy_2_2.getX();
+            if(ene2_3set==true) enex3 = enemy_2_3.getX();
+            
+            
             
             if(x == 0){
                 if(xW !=0){
@@ -93,6 +104,22 @@ public class MyWorld extends World
                  removeObject( enemy_2_3 );
                  xW++;
                 }              
+            }
+            
+            if((enex==0)&&(ene2set==true))
+            {
+                removeObject( enemy_2 );
+                ene2set=false;
+            }
+            if((enex2==0)&&(ene2_2set==true))
+            {
+                removeObject( enemy_2_2 );
+                ene2_2set=false;
+            }
+            if((enex3==0)&&(ene2_3set==true))
+            {
+                removeObject( enemy_2_3 );
+                ene2_3set=false;
             }
                  
 
