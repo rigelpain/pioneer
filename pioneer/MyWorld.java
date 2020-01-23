@@ -12,6 +12,7 @@ public class MyWorld extends World
 {
     Actor player = null;
     Actor enemy  = null;
+    Actor treasure = null;
     Actor enemy_1  = null;
     Actor enemy_1_2  = null;
     Actor enemy_1_3  = null;
@@ -29,7 +30,7 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
-        
+        treasure=new treasure();
         enemy= new enemy();
         enemy_1=new enemy_1();
         enemy_1_2=new enemy_1();
@@ -48,14 +49,9 @@ public class MyWorld extends World
         addObject( enemy_2_3, 440, 60 ); 
         
         player = new PLAYER();
-<<<<<<< HEAD
-        addObject( player, 300, 200 );
 
-=======
         addObject( player, 10, 200 );
-
-       
->>>>>>> 1daa49c8128e87e48148820b2a291ed7d7ec8d10
+        
 
         GreenfootImage img1 = new GreenfootImage( "images/background4.png" );
 
@@ -89,6 +85,7 @@ public class MyWorld extends World
                  getBackground().drawImage( img, 0, 0 );
                  player.setLocation(1,y);
                  addObject( enemy, 500, 200 ); 
+                 addObject( treasure, 500, 300 ); 
                  removeObject( enemy_1 );
                  removeObject( enemy_2 );
                  removeObject( enemy_1_2 );
