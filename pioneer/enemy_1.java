@@ -24,11 +24,14 @@ public class enemy_1 extends Actor
         
         int x = getX();
         int y = getY();
+<<<<<<< HEAD
 
-        int speed=1;
+=======
         
-        if((xp<x+10)&&(xp>x-10)&&(yp<y+10)&&(yp>y-10)) speed=5;
-        else                                           speed=1;
+>>>>>>> 556cbbd339fc5b9c67aa56c2b282c343fdaf86ea
+        int speed=1;
+        //if     ((xp<x+5)&&(xp>x-5)) speed=2;
+        //else                          speed=1;
         
         if(yp<y)        y=y-speed;
         else if(yp>y)   y=y+speed;
@@ -44,7 +47,12 @@ public class enemy_1 extends Actor
             setImage( myGif2.getCurrentImage() );
         }
         
+<<<<<<< HEAD
 
         setLocation(x,y);
+=======
+        setLocation(x,y);
+
+>>>>>>> 556cbbd339fc5b9c67aa56c2b282c343fdaf86ea
     }    
 }

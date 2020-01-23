@@ -49,9 +49,16 @@ public class MyWorld extends World
         addObject( enemy_2_3, 440, 60 ); 
         
         player = new PLAYER();
+<<<<<<< HEAD
 
         addObject( player, 10, 200 );
         
+=======
+
+        addObject( player, 300, 200 );
+
+        addObject( player, 10, 200 );
+>>>>>>> 556cbbd339fc5b9c67aa56c2b282c343fdaf86ea
 
         GreenfootImage img1 = new GreenfootImage( "images/background4.png" );
 
@@ -84,8 +91,12 @@ public class MyWorld extends World
                  img.scale(600,435);
                  getBackground().drawImage( img, 0, 0 );
                  player.setLocation(1,y);
+<<<<<<< HEAD
                  addObject( enemy, 500, 200 ); 
                  addObject( treasure, 500, 300 ); 
+=======
+                 addObject( enemy, 500, 300 ); 
+>>>>>>> 556cbbd339fc5b9c67aa56c2b282c343fdaf86ea
                  removeObject( enemy_1 );
                  removeObject( enemy_2 );
                  removeObject( enemy_1_2 );

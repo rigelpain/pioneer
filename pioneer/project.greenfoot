@@ -23,12 +23,18 @@ dependency12.type=UsesDependency
 dependency13.from=enemy_1
 dependency13.to=GifImage
 dependency13.type=UsesDependency
+<<<<<<< HEAD
 dependency14.from=enemy_1
 dependency14.to=PLAYER
 dependency14.type=UsesDependency
 dependency15.from=treasure
 dependency15.to=PLAYER
 dependency15.type=UsesDependency
+=======
+dependency14.from=enemy
+dependency14.to=PLAYER
+dependency14.type=UsesDependency
+>>>>>>> 556cbbd339fc5b9c67aa56c2b282c343fdaf86ea
 dependency2.from=MyWorld
 dependency2.to=treasure
 dependency2.type=UsesDependency
@@ -53,6 +59,7 @@ dependency8.type=UsesDependency
 dependency9.from=PLAYER
 dependency9.to=enemy_1
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=712
 editor.fx.0.width=884
 editor.fx.0.x=959
@@ -60,6 +67,22 @@ editor.fx.0.y=169
 height=585
 package.numDependencies=15
 package.numTargets=10
+=======
+editor.fx.0.height=761
+editor.fx.0.width=884
+<<<<<<< HEAD
+editor.fx.0.x=1005
+editor.fx.0.y=116
+height=582
+package.numDependencies=14
+=======
+editor.fx.0.x=-32000
+editor.fx.0.y=-32000
+height=28
+package.numDependencies=13
+>>>>>>> ef3c5c2980353475ae4b30ed19d0e7211a4a85cc
+package.numTargets=8
+>>>>>>> 556cbbd339fc5b9c67aa56c2b282c343fdaf86ea
 project.charset=windows-31j
 publish.hasSource=false
 publish.locked=true
@@ -145,7 +168,17 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-width=891
+width=160
 world.lastInstantiated=WorldTitle
+<<<<<<< HEAD
 xPosition=73
 yPosition=32
+=======
+<<<<<<< HEAD
+xPosition=149
+yPosition=188
+=======
+xPosition=0
+yPosition=0
+>>>>>>> ef3c5c2980353475ae4b30ed19d0e7211a4a85cc
+>>>>>>> 556cbbd339fc5b9c67aa56c2b282c343fdaf86ea
