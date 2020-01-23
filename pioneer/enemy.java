@@ -51,7 +51,7 @@ public class enemy extends Actor
                 
                 setImage(right);
                 if(count<6)setLocation( x,y-jump );
-                else if(count<18)setLocation( x-3,y );
+                else if(count<18)setLocation( x-5,y );
                 else if(count<24)setLocation( x,y+jump );
                 count++;
             }
@@ -72,7 +72,7 @@ public class enemy extends Actor
                
                setImage(left);
                 if(count<6)setLocation( x,y-jump );
-                else if(count<18)setLocation( x+3,y );
+                else if(count<18)setLocation( x+5,y );
                 else if(count<24)setLocation( x,y+jump );
                count++;
             }
