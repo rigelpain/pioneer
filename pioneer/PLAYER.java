@@ -68,6 +68,7 @@ public class PLAYER extends Actor
             Greenfoot.stop();
          }else{*/
             life--;
+            Greenfoot.playSound("sounds/gusari.mp3");
          //}
         }
         if( life <= 0 ){  
