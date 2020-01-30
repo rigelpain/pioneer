@@ -83,6 +83,7 @@ public class MyWorld extends World
                  getBackground().drawImage( img, 0, 0 );
                  player.setLocation(598,y);
                  removeObject( enemy );
+                 removeObject( treasure );
                  addObject( enemy_1, 500, 300 ); 
                  addObject( enemy_2, 500, 100 ); 
                  xW--;            
